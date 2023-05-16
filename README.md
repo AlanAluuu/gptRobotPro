@@ -4,17 +4,17 @@
 
 运行这个项目首先需要在chatPro\chat\myapp\api.py文件中的openai_secret_key中输入自己的API key。
 
-![image-20230516183009717](C:\Users\Lulu\AppData\Roaming\Typora\typora-user-images\image-20230516183009717.png)
+![Alt text](https://github.com/AlanAluuu/gptRobotPro/blob/main/ScreenShots/1.png)
 
 这个程序使用requests.post()方法向OpenAI API发出POST请求，并将响应结果以JSON格式解析成Python对象。程序从响应数据中提取出聊天机器人的回复消息，并将其封装到Response对象中返回给客户端。
 
 urls.py中的设置如下
 
-![image-20230516183610340](C:\Users\Lulu\AppData\Roaming\Typora\typora-user-images\image-20230516183610340.png)
+![Alt text](https://github.com/AlanAluuu/gptRobotPro/blob/main/ScreenShots/2.png)
 
 在终端输入python manage.py runserver开启服务，输入参数msg="hello"，可以看到openai返回了"Hello! How may I assist you today?"
 
-![image-20230516183154069](C:\Users\Lulu\AppData\Roaming\Typora\typora-user-images\image-20230516183154069.png)
+![Alt text](https://github.com/AlanAluuu/gptRobotPro/blob/main/ScreenShots/3.png)
 
 #### **二、noneBot机器人逻辑**
 
