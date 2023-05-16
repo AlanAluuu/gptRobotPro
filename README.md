@@ -22,7 +22,7 @@ urls.py中的设置如下
 
 ![Alt text](https://github.com/AlanAluuu/gptRobotPro/blob/main/ScreenShots/4.png)
 
-python解释器运行入口文件为bot.py程序运行，代码如下
+python解释器运行入口文件为bot.py，代码如下
 
 ![Alt text](https://github.com/AlanAluuu/gptRobotPro/blob/main/ScreenShots/5.png)
 
