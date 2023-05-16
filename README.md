@@ -42,7 +42,7 @@ python解释器运行入口文件为bot.py程序运行，代码如下
 
 
 
-#### **三、go-http登录QQ账号，监听账号的所有输入，反向代理nonoBot**
+#### **三、go-cqhttp登录QQ账号，监听账号的所有输入，反向代理noneBot**
 
 命令行直接运行go-cqhttp，得到下面的结果
 
